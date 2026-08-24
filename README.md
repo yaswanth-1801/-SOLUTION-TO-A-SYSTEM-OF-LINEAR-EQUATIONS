@@ -17,7 +17,7 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -25,6 +25,7 @@ A=[[1,-3],[3,1]]
 B=np.array([0,10])
 C=np.linalg.solve(A,B)
 print(C)
+```
 
 
 ## Output:
